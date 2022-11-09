@@ -1,13 +1,13 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace HSIN
 {
     /// <summary>
-    /// ¼Ä¤H¤l¼uµo®g
+    /// æ•µäººå­å½ˆç™¼å°„
     /// </summary>
     public class EnemyFireSystem : FireSystemBase
     {
-        [SerializeField, Header("¥Í¦¨¤l¼u¶¡¹j"), Range(0, 3)]
+        [SerializeField, Header("ç”Ÿæˆå­å½ˆé–“éš”"), Range(0, 3)]
         private float interval = 0.5f;
 
         private void Awake()

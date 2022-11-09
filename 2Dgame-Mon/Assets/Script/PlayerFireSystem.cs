@@ -1,9 +1,9 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace HSIN
 {
     /// <summary>
-    /// ª±®a¤l¼uµo®g
+    /// ç©å®¶å­å½ˆç™¼å°„
     /// </summary>
     public class PlayerFireSystem : FireSystemBase
     {

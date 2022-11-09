@@ -206,7 +206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabBullet: {fileID: 6348529477567803546, guid: 93899c3fa02a697438709547e1674755, type: 3}
   pointSpwan: {fileID: 8706531225780359647}
-  interval: 0.5
+  interval: 1
 --- !u!114 &4090273270819598039
 MonoBehaviour:
   m_ObjectHideFlags: 0

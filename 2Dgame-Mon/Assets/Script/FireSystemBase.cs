@@ -1,18 +1,18 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace HSIN
 {
     /// <summary>
-    /// µo®g¨t²Î°ò©³
+    /// ç™¼å°„ç³»çµ±åŸºåº•
     /// </summary>
     public class FireSystemBase : MonoBehaviour
     {
-        [SerializeField, Header("¤l¼u¹w»sª«")]
+        [SerializeField, Header("å­å½ˆé è£½ç‰©")]
         private GameObject prefabBullet;
-        [SerializeField, Header("¤l¼u¥Í¦¨ÂI")]
+        [SerializeField, Header("å­å½ˆç”Ÿæˆé»")]
         private Transform pointSpwan;
 
-        //¥Í¦¨¤l¼u
+        //ç”Ÿæˆå­å½ˆ
         protected void SpawnBullet()
         {
             Instantiate(prefabBullet,
