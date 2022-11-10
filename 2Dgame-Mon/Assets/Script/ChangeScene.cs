@@ -1,9 +1,12 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 namespace HSIN
 {
+    /// <summary>
+    /// 切換場景
+    /// </summary>
     public class ChangeScene : MonoBehaviour
     {
         void Start()
